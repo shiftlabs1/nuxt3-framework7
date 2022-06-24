@@ -18,8 +18,10 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
   runtimeConfig: {
+    somethingElse: '',
     public: {
       hostUrl: '',
+      somethingElse: '',
     },
   },
 })

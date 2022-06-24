@@ -3,13 +3,13 @@ import { getDevice } from 'framework7/lite-bundle'
 import type { Device } from 'framework7/types'
 import { routes } from '@/lib'
 const device: Device = getDevice()
-const variables = useRuntimeConfig()?.public
+// const variables = useRuntimeConfig()?.public
 
 // const hostUrl = `${variables.hostUrl}/`
 const hostUrl = 'http://localhost:3000/'
 
 // eslint-disable-next-line no-console
-console.log(hostUrl)
+console.log(useRuntimeConfig()?.public?.somethingElse)
 
 const f7params = {
   routes,

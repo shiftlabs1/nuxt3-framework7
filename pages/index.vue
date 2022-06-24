@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import { f7 } from 'framework7-vue'
+
+const theme = f7.theme
+</script>
+
 <template>
   <f7-page>
     <f7-navbar title="Framework7 Next.js">
@@ -15,7 +21,7 @@
     <f7-block-title>Server-side device detection</f7-block-title>
     <f7-block strong>
       <p>Framework7 Next.js is capable to detect device on server-side (based on device user-agent).</p>
-      <p>Current theme is <b>{theme.ios ? 'ios': 'md'}</b></p>
+      <p>Current theme is <b>{{ theme }}</b></p>
     </f7-block>
     <f7-block-title>Routing</f7-block-title>
     <f7-list>

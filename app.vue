@@ -11,6 +11,8 @@ useHead({
     },
   ],
 })
+// eslint-disable-next-line no-console
+console.log(useRuntimeConfig().public.hostUrl)
 </script>
 
 <template>
