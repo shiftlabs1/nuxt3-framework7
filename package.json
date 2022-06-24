@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "packageManager": "pnpm@7.1.7",
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "start": "node .output/server/index.mjs",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "dayjs": "^1.11.3",
+    "framework7": "^7.0.5",
+    "framework7-icons": "^5.0.5",
+    "framework7-vue": "^7.0.5",
+    "graphql": "^16.5.0",
+    "linq-extensions": "^1.0.4",
+    "lodash-es": "^4.17.21",
+    "material-icons": "^1.11.1",
+    "pinia": "^2.0.14"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.25.1",
+    "@iconify-json/carbon": "^1.1.5",
+    "@iconify-json/twemoji": "^1.1.4",
+    "@nuxtjs/color-mode": "^3.1.4",
+    "@pinia/nuxt": "^0.1.9",
+    "@unocss/nuxt": "^0.39.0",
+    "@vueuse/nuxt": "^8.6.0",
+    "eslint": "^8.17.0",
+    "eslint-plugin-vue": "^9.1.1",
+    "nuxt": "^3.0.0-rc.4",
+    "pinia": "^2.0.14",
+    "typescript": "^4.7.3"
+  }
+}
